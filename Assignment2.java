@@ -24,7 +24,7 @@ public class Assignment2 {
 
         currentWeight = checkWeight(currentWeight);
         
-        if(currentWeight > 100) {
+        if(currentWeight > 150) {
         currentWeight = fixDietandExercise(currentWeight);
         loseWeight(currentWeight);
         } 
