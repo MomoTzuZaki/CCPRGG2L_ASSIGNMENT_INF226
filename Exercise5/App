@@ -1,0 +1,19 @@
+public class App {
+
+    public static void main (String [] args) throws Exception {
+
+Person me = new Person();
+
+// Get method
+me.setname("Paul");
+
+System.out.println(me.getname());
+
+// Son object 
+Son myself = new Son();
+
+System.out.println(myself.surname);
+myself.showSurname();
+
+}
+}
